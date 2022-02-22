@@ -1,1 +1,6 @@
 *.exe
+*.o
+*.bak
+*.cgi
+fp___.err
+fp___.out
