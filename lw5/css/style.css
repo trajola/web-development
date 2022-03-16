@@ -1,0 +1,101 @@
+.page
+{
+    background-color: #fff;
+}
+
+.nav
+{
+    font: 500 16px/20px 'Montserrat', sans-serif;
+    color: #000;
+}
+
+.register
+{
+    font: 400 26px/32px 'Roboto Condensed', sans-serif;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.register__h
+{
+    font: 600 100px/123px 'Montserrat', sans-serif;
+    color: #000;
+}
+.h_pink
+{
+    color: #ee58b6;
+}
+
+.towhom
+{
+    background-color: #000;
+    font: 400 22px/26px 'Roboto Condensed', sans-serif;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.info
+{
+    font: 400 18px/24px 'Roboto Condensed', sans-serif;
+    color: #000;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.info__h
+{
+    font: 500 48px/61px 'Montserrat', sans-serif;
+    color: #000;
+}
+
+.youcan
+{
+    font: 400 18px/24px 'Roboto Condensed', sans-serif;
+    color: #000;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.youcan__h
+{
+    font: 500 48px/58px 'Montserrat', sans-serif;
+    color: #000;
+}
+
+.youcan__box
+{
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+}
+
+.button
+{
+    font: 600 16px/16.5px 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    padding: 18px 34px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.register__button
+{
+    max-width: 332px;
+}
+
+.nav__button
+{
+    max-width: 236px;
+}
+
+.footer
+{
+    background-color: #000;
+    text-align: center;
+    padding: 30px;
+}

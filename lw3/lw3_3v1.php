@@ -38,8 +38,9 @@ else
         $passStrength -= $passLength;
     if ($upperCount + $lowerCount == 0)
         $passStrength -= $passLength;
-    if (strlen(count_chars($pass, 3)) < $passLength)
-        $passStrength -= $passLength - strlen(count_chars($pass, 3)) + 1;
+    foreach (count_chars($pass, 1) as $i => $val) 
+       if ($val > 1)
+           $passStrength -= $val; 
     $passStrengthComment = 'Password strength = ' . $passStrength;
 }
 
