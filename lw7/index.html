@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html  lang="ru">
     <head>
-        <meta charset="utf-8" />      
+        <meta charset="utf-8" />
         <title>Don't do it</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./css/style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto+Condensed&display=swap" rel="stylesheet">
     </head>
@@ -18,6 +19,9 @@
         </header>
 
         <div class="main-info">
+            <div class="main-info__picture">
+                <img class="main-info__picture_size" src="./images/man_lying.png" alt="отдыхаем">
+            </div>
             <div class="main-info__text-block">
                 <p class="main-info__text_header">
                     <span>Не</span> <span class="text-marked">делай</span> <span>это</span>
@@ -27,32 +31,27 @@
                 </p>
                 <div class="button main-info__button">Записаться на курс</div>
             </div>
-            <div class="main-info__picture">
-                <img src="./images/man_lying.png" alt="отдыхаем">
-            </div>
-            
         </div>
-
         <div class="offer-block">
             <div class="offer-block__box">
-                <img src="./images/time.svg" alt="time">
-                <p class="offer-box__text">Для тех, у кого слишком много<br/>идей и слишком мало времени</p>
+                <div class="offer-box__picture"><img src="./images/time.svg" alt="time"></div>
+                <p class="offer-box__text">Для тех, у кого слишком много идей и слишком мало времени</p>
             </div>
             <div class="offer-block__box offer-block__box_offset">
-                <img src="./images/notebook.svg" alt="notebook">
+                <div class="offer-box__picture"><img src="./images/notebook.svg" alt="notebook"></div>
                 <p class="offer-box__text">Метод «списка не дел», который позволит успевать и реализовывать</p>
             </div>
             <div class="offer-block__box">
-                <img src="./images/target.svg" alt="target">
+                <div class="offer-box__picture"><img src="./images/target.svg" alt="target"></div>
                 <p class="offer-box__text">Курс научит творческих людей сосредоточиваться</p>
             </div>       
         </div>
 
-           <div class="info">
-            <div class="info__picture_1">
-                <img src="./images/finances.png" alt="Финансы">
+        <div class="info info1">
+            <div class="info__picture">
+                <img class="info__picture_size" src="./images/finances.png" alt="Финансы">
             </div>
-            <div class="info__text_1">
+             <div class="info__text">
                 <p class="info__text_header">Ты не успеешь</p>
                 <p>
                     Всех творческих людей объединяет одна проблема - отсутствие времени на реализацию идей. Как прибавить суткам часы, рассмотрим в нашем курсе.
@@ -60,18 +59,17 @@
             </div>
         </div>
 
-        <div class="info">
-            <div class="info__text_2">
+        <div class="info info2">
+            <div class="info__picture">
+                <img class="info__picture_size" src="./images/mind_blowing.png" alt="Улетай, мозг">  
+            </div>              
+            <div class="info__text">
                 <p class="info__text_header">Опять дедлайн</p>
                 <p>
                     В мире, где столько всего интересного, когда же успевать жить?
                 </p>
             </div>
-            <div class="info__picture_2">
-                <img src="./images/mind_blowing.png" alt="Улетай, мозг">  
-            </div>              
         </div>
-
         <div class="feaches-block">
             <p class="feaches-block__header">
                 <span>На курсе ты</span> <span class="text-marked">сможешь</span>
@@ -89,17 +87,17 @@
 
                 <div class="feaches__box">
                     <img src="./images/finger3.svg" alt="time">
-                    <p class="feaches-box__text">Определить сильные стороны<br/>и начать использовать слабые.</p>
+                    <p class="feaches-box__text">Определить сильные стороны и начать использовать слабые.</p>
                 </div>
 
                 <div class="feaches__box">
                     <img src="./images/finger4.svg" alt="time">
-                    <p class="feaches-box__text">Научиться достигать любой цели<br/>в 3 понятных шага.</p>
+                    <p class="feaches-box__text">Научиться достигать любой цели в 3 понятных шага.</p>
                 </div>
 
                 <div class="feaches__box">
                     <img src="./images/finger5.svg" alt="time">
-                    <p class="feaches-box__text">Сотрудничать эффективно<br/>и с правильными людьми.</p>    
+                    <p class="feaches-box__text">Сотрудничать эффективно и с правильными людьми.</p>    
                 </div>   
 
                 <div class="feaches__box">
@@ -108,8 +106,7 @@
                 </div>
             </div>
         </div>
-
-        <footer class="footer">
+        <footer class="footer">  
             <img src="./images/logo_white.svg" alt="logo">
         </footer>
     </body>
